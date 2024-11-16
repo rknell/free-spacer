@@ -1,0 +1,2 @@
+# Run the cleanup script every 10 minutes
+*/10 * * * * /usr/local/bin/cleanup >> /mnt/media/free-spacer/cleanup.log 2>&1
